@@ -11,7 +11,7 @@ Scanner scanner =new Scanner(System.in);
 			String name =scanner.nextLine();
 			System.out.print("Enter your age:");
 	int age = scanner.nextInt();
-		System.out.println("Are you a ugandan?(yes/no):");
+		System.out.println("Are you a Ugandan?(yes/no):");
 			String citizen =scanner.next();
 				System.out.println("Do you have a Second Class upper CGPA or better?(yes/no):");
 			String CGPA = scanner.next();

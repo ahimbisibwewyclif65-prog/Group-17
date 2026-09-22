@@ -9,11 +9,11 @@ Scanner scanner =new Scanner(System.in);
 		while(again.equalsIgnoreCase("Yes")) {
 			System.out.println("Enter Your Name:");
 			String name =scanner.nextLine();
-			System.out.print("Enter your age:");
+			System.out.print("Enter Your Age:");
 	int age = scanner.nextInt();
 		System.out.println("Are you a Ugandan?(yes/no):");
 			String citizen =scanner.next();
-				System.out.println("Do you have a Second Class upper CGPA or better?(yes/no):");
+				System.out.println("Do you have a Second Class Upper CGPA or better?(yes/no):");
 			String CGPA = scanner.next();
 		String ageCheck =(age>=18)?"ok":"Not ok";
 				String citizenCheck =citizen.equalsIgnoreCase("Yes")?"ok":"not ok";
@@ -26,7 +26,7 @@ Scanner scanner =new Scanner(System.in);
 	System.out.println(result);
 		System.out.println("Check Your Email");
 		   again = scanner.next();
-	System.out.println("Thank you");
+	System.out.println("Thank You");
 		}
 	}	
 }
